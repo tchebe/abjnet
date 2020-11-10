@@ -417,7 +417,6 @@ github.com/tchebe/abjnet/user_service v0.0.0-20200511095046-4fffd71d851d/go.mod 
 github.com/tchebe/abjnet/user_service v0.0.0-20200531124055-aab7d7162a78/go.mod h1:KL7CDDP6J/0xXc0/QYVP52BQtrGo2Q37WjFD7LJLd1A=
 github.com/tchebe/abjnet/user_service v0.0.0-20200531141652-e91fe0365427 h1:RAtsyT5spQmbfayAEDYChag6gqIG19UjoitfbDA7Dh0=
 github.com/tchebe/abjnet/user_service v0.0.0-20200531141652-e91fe0365427/go.mod h1:ass/TIa2DEyrlYnOyAJ5yom+6j09fy5S6DrYFGKpcV4=
-github.com/tchebe/abjnet/user_service v0.0.0-20200531233639-a49046ecb633 h1:oZgpPCLSjMuBNMFwKveeSPefqEr6pD7Zos60u/xGbZc=
 github.com/tchebe/abjnet/user_service v0.0.0-20200531233639-a49046ecb633/go.mod h1:ass/TIa2DEyrlYnOyAJ5yom+6j09fy5S6DrYFGKpcV4=
 github.com/tchebe/abjnet/user_service v0.0.0-20201110134502-45bcc7273688 h1:kPZNgNVyZyre7nvYN5pNkqDd9cS14B6sjtwqfZxaxoA=
 github.com/tchebe/abjnet/user_service v0.0.0-20201110134502-45bcc7273688/go.mod h1:rn4StlzuZcnysSJfI6W0cjFiz+hjDpWEw6rvUE/1ku0=
