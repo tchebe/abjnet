@@ -380,7 +380,6 @@ github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81P
 github.com/syndtr/gocapability v0.0.0-20170704070218-db04d3cc01c8/go.mod h1:hkRG7XYTFWNJGYcbNJQlaLq0fg1yr4J4t/NcTQtrfww=
 github.com/tchebe/abjnet v0.0.0-20200531124055-aab7d7162a78 h1:jau7A0i39uebJ/rQgVjphjYf159OOG5gwkNEuJSjSyo=
 github.com/tchebe/abjnet v0.0.0-20201110134502-45bcc7273688 h1:8c7VyHaEJqP3UOiEPn1umzJFyR6UTvkyre+2N0PZc3A=
-github.com/tchebe/abjnet/user_service v0.0.0-20200531124055-aab7d7162a78 h1:/VZkOmtXjZCI4cc++YnjcUSO6rnikfUMihBxU7B0q74=
 github.com/tchebe/abjnet/user_service v0.0.0-20200531124055-aab7d7162a78/go.mod h1:KL7CDDP6J/0xXc0/QYVP52BQtrGo2Q37WjFD7LJLd1A=
 github.com/tchebe/abjnet/user_service v0.0.0-20201110134502-45bcc7273688 h1:kPZNgNVyZyre7nvYN5pNkqDd9cS14B6sjtwqfZxaxoA=
 github.com/tchebe/abjnet/user_service v0.0.0-20201110134502-45bcc7273688/go.mod h1:rn4StlzuZcnysSJfI6W0cjFiz+hjDpWEw6rvUE/1ku0=
