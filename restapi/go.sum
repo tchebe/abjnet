@@ -396,7 +396,6 @@ github.com/tchebe/abjnet/payment_service v0.0.0-20201110134502-45bcc7273688/go.m
 github.com/tchebe/abjnet/prestation_service v0.0.0-20200531141652-e91fe0365427/go.mod h1:5MeCfV1Mj8DGvw5FQZEQ1LHWRX29FzNEGApRrQYuFxQ=
 github.com/tchebe/abjnet/prestation_service v0.0.0-20200531232302-1d16e73bcf89 h1:wqYTzZ5hWIjGUgJEYK77m8qMW6Ia6/tg9Rxqnl4jbk8=
 github.com/tchebe/abjnet/prestation_service v0.0.0-20200531232302-1d16e73bcf89/go.mod h1:56H679gooPGMPH+Tb0F9vJ31F/8N12CQhVETRnqG6D4=
-github.com/tchebe/abjnet/prestation_service v0.0.0-20200601212057-d89d44de0468 h1:H83hQd7aqHoa2rzFe+R6HsKCU9Ax4S+j7ml7hBnOaS0=
 github.com/tchebe/abjnet/prestation_service v0.0.0-20200601212057-d89d44de0468/go.mod h1:56H679gooPGMPH+Tb0F9vJ31F/8N12CQhVETRnqG6D4=
 github.com/tchebe/abjnet/prestation_service v0.0.0-20201110134502-45bcc7273688 h1:9pjVZDvXHZCDKON2pUbowz+MXTCLPu9Q+54GSWD2B2M=
 github.com/tchebe/abjnet/prestation_service v0.0.0-20201110134502-45bcc7273688/go.mod h1:z2BtmF0YeYROzsRpA2ItaDaxTCDsdRSW3FEkyDKjLJY=
