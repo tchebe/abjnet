@@ -387,15 +387,12 @@ github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXf
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
 github.com/syndtr/gocapability v0.0.0-20170704070218-db04d3cc01c8/go.mod h1:hkRG7XYTFWNJGYcbNJQlaLq0fg1yr4J4t/NcTQtrfww=
-github.com/tchebe/abjnet v0.0.0-20200531141652-e91fe0365427 h1:5ALiotnDSsZKQu3Dm+zSMWwTkrCG4NgmXpTC3C4EwSc=
 github.com/tchebe/abjnet v0.0.0-20200531232302-1d16e73bcf89 h1:vltXU+yyW/V+7rt9PBWG0KgKmEYxLmzm/8Tg0tnP7qM=
 github.com/tchebe/abjnet v0.0.0-20200601212057-d89d44de0468 h1:GyuYAfpXfXvbTawQgaAeArUWFq4oVd7Y4YF+Is4D/B4=
 github.com/tchebe/abjnet v0.0.0-20201110134502-45bcc7273688 h1:8c7VyHaEJqP3UOiEPn1umzJFyR6UTvkyre+2N0PZc3A=
-github.com/tchebe/abjnet/payment_service v0.0.0-20200531141652-e91fe0365427 h1:znilon0mUtxZo2Yu+2XShtO9UYtgGeJneNMtypkLPqo=
 github.com/tchebe/abjnet/payment_service v0.0.0-20200531141652-e91fe0365427/go.mod h1:EjetH8JDIALt/YEfzxL3TRgqtGkokquPT6tKLMov2YM=
 github.com/tchebe/abjnet/payment_service v0.0.0-20201110134502-45bcc7273688 h1:/TbRyObJcyp3DIiaLDZO/CHYZJ4KzpJuSlrVv719Wjo=
 github.com/tchebe/abjnet/payment_service v0.0.0-20201110134502-45bcc7273688/go.mod h1:ebOruaqMPDogmccOzB0SirSjxSxmdzGzUZmGJl4sOZ0=
-github.com/tchebe/abjnet/prestation_service v0.0.0-20200531141652-e91fe0365427 h1:ZTrayafOl2SvMXUWXJyaEI+mK/+rjiegLsS1irjpL/E=
 github.com/tchebe/abjnet/prestation_service v0.0.0-20200531141652-e91fe0365427/go.mod h1:5MeCfV1Mj8DGvw5FQZEQ1LHWRX29FzNEGApRrQYuFxQ=
 github.com/tchebe/abjnet/prestation_service v0.0.0-20200531232302-1d16e73bcf89 h1:wqYTzZ5hWIjGUgJEYK77m8qMW6Ia6/tg9Rxqnl4jbk8=
 github.com/tchebe/abjnet/prestation_service v0.0.0-20200531232302-1d16e73bcf89/go.mod h1:56H679gooPGMPH+Tb0F9vJ31F/8N12CQhVETRnqG6D4=
@@ -408,7 +405,6 @@ github.com/tchebe/abjnet/product_service v0.0.0-20200531124055-aab7d7162a78/go.m
 github.com/tchebe/abjnet/product_service v0.0.0-20200804064938-decd38f6bccb/go.mod h1:lqofLydGw/i2bMAZI+30BVeor/R/9p1qnFbpvxscEoA=
 github.com/tchebe/abjnet/product_service v0.0.0-20201110134502-45bcc7273688 h1:MiYTRrgjIpB9MXnpP9pm91BK+QHoRiVQ3lLINEL1+lQ=
 github.com/tchebe/abjnet/product_service v0.0.0-20201110134502-45bcc7273688/go.mod h1:dt6J0qiu2Ol/Utp9ihcg03YCmgXDIAhvfVBlkbvkrYk=
-github.com/tchebe/abjnet/souscription_service v0.0.0-20200531141652-e91fe0365427 h1:GYPZodGNUWJIMb0t8WujScA0oUNxxvj6nStDp9vwFpQ=
 github.com/tchebe/abjnet/souscription_service v0.0.0-20200531141652-e91fe0365427/go.mod h1:FQBgIU0sQ6CpAizAALAJtpJhnZ5I13fL98y9CJEgTo8=
 github.com/tchebe/abjnet/souscription_service v0.0.0-20201110134502-45bcc7273688 h1:KhcDqYkG30ny1iZIwhY2XRSllqdVMoq34Vns6dwM8bk=
 github.com/tchebe/abjnet/souscription_service v0.0.0-20201110134502-45bcc7273688/go.mod h1:7unTP4c8x+6RrP4rgnS0DFD1ZlIP8je4BPPolRKH2Pg=
