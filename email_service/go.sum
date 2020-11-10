@@ -441,7 +441,6 @@ github.com/tchebe/abjnet/souscription_service v0.0.0-20201110134502-45bcc7273688
 github.com/tchebe/abjnet/souscription_service v0.0.0-20201110134502-45bcc7273688/go.mod h1:7unTP4c8x+6RrP4rgnS0DFD1ZlIP8je4BPPolRKH2Pg=
 github.com/tchebe/abjnet/user_service v0.0.0-20200511095046-4fffd71d851d/go.mod h1:iKFmHxVNh6z8m8F16qlYFWxjgmmBP5wdL6iLNiLSJuk=
 github.com/tchebe/abjnet/user_service v0.0.0-20200531124055-aab7d7162a78/go.mod h1:KL7CDDP6J/0xXc0/QYVP52BQtrGo2Q37WjFD7LJLd1A=
-github.com/tchebe/abjnet/user_service v0.0.0-20200531233639-a49046ecb633 h1:oZgpPCLSjMuBNMFwKveeSPefqEr6pD7Zos60u/xGbZc=
 github.com/tchebe/abjnet/user_service v0.0.0-20200531233639-a49046ecb633/go.mod h1:ass/TIa2DEyrlYnOyAJ5yom+6j09fy5S6DrYFGKpcV4=
 github.com/technoweenie/multipartstreamer v1.0.1/go.mod h1:jNVxdtShOxzAsukZwTSw6MDx5eUJoiEBsSvzDU9uzog=
 github.com/timewasted/linode v0.0.0-20160829202747-37e84520dcf7/go.mod h1:imsgLplxEC/etjIhdr3dNzV3JeT27LbVu5pYWm0JCBY=
