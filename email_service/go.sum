@@ -433,7 +433,6 @@ github.com/tchebe/abjnet/prestation_service v0.0.0-20200803095337-d5373418de7a/g
 github.com/tchebe/abjnet/prestation_service v0.0.0-20201110134502-45bcc7273688 h1:9pjVZDvXHZCDKON2pUbowz+MXTCLPu9Q+54GSWD2B2M=
 github.com/tchebe/abjnet/prestation_service v0.0.0-20201110134502-45bcc7273688/go.mod h1:z2BtmF0YeYROzsRpA2ItaDaxTCDsdRSW3FEkyDKjLJY=
 github.com/tchebe/abjnet/product_service v0.0.0-20200531124055-aab7d7162a78/go.mod h1:BN5q8s260UawtU3ZTm8ZsiNFBBcPV9SR7MVLWOUKcpQ=
-github.com/tchebe/abjnet/product_service v0.0.0-20200804064938-decd38f6bccb h1:xlCEJfQop1rH/B7bF0LZptklh5JEe8pAy9LSesewKqQ=
 github.com/tchebe/abjnet/product_service v0.0.0-20200804064938-decd38f6bccb/go.mod h1:lqofLydGw/i2bMAZI+30BVeor/R/9p1qnFbpvxscEoA=
 github.com/tchebe/abjnet/souscription_service v0.0.0-20200531233639-a49046ecb633/go.mod h1:FQBgIU0sQ6CpAizAALAJtpJhnZ5I13fL98y9CJEgTo8=
 github.com/tchebe/abjnet/souscription_service v0.0.0-20200803095337-d5373418de7a h1:RTAAA7aEWa7lafSU1pN9i7URiD/Jf5XpMqNqF1UhukU=
