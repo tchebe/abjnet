@@ -1,5 +1,5 @@
 compile_proto:
-	protoc  --go_out=. --micro_out=. proto/product/product.proto
+	protoc  --go_out=. --micro_out=. proto/product/product.proto --plugin=
 build: 
 		docker build -t abjnet_product_service .
 run:

@@ -1,4 +1,4 @@
-module github.com/zjjt/abjnet/user_cli
+module github.com/tchebe/abjnet/user_cli
 
 go 1.14
 
@@ -18,3 +18,5 @@ require (
 	gopkg.in/yaml.v2 v2.2.8 // indirect
 	honnef.co/go/tools v0.0.1-2020.1.3 // indirect
 )
+
+replace github.com/zjjt/abjnet/user_service => github.com/tchebe/abjnet/user_service v0.0.0-20200508133603-c1790a700d4e
