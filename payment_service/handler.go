@@ -29,6 +29,25 @@ func (s *service) Pay(ctx context.Context, req *pb.Payment, res *pb.Response) er
 		}}
 		return errors.New(theerror)
 	}
+	
+	//envoi de sms pour confirmation au client
+	jsonData := map[string]string{
+		"username": "WEBLOGY",
+		"password": "WEBLOGY", 
+		"telephone": req.telephone,
+		"expeditor": "Nsia Vie CI",
+		"typeEnvoi": "Confirmation de paiement",
+		"sms": fmt.Sprintf("Cher(e) %s, votre paiement a bien été enregistré. Infoline 22419800",req.nomclient)
+	}
+    jsonValue, _ := json.Marshal(jsonData)
+    response, err = http.Post("http://10.11.100.48:8084/sendSMS", "application/json", bytes.NewBuffer(jsonValue))
+    if err != nil {
+        fmt.Printf("The HTTP request failed with error %s\n", err)
+    } else {
+        data, _ := ioutil.ReadAll(response.Body)
+        fmt.Println(string(data))
+    }
+
 
 	res.Done = true
 	res.Description = "Paiement pris en compte.Un retour vous sera fait d'ici 24h"

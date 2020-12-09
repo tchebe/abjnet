@@ -13,7 +13,7 @@ message Souscription{
     string prenom=3;
     string dateofbirth=4;
     string telephone=5;
-    fixed32 abjcardno=6;
+    string abjcardno=6;
     uint64 montant=7;
     int32 codeproduit=8;
     string datepayment=9;
