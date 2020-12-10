@@ -1,9 +1,13 @@
 package main
 
 import (
+	"bytes"
 	"context"
+	"encoding/json"
 	"errors"
 	"fmt"
+	"io/ioutil"
+	"net/http"
 
 	pb "github.com/tchebe/abjnet/souscription_service/proto/souscription"
 )
@@ -28,26 +32,24 @@ func (s *service) Subscribe(ctx context.Context, req *pb.Souscription, res *pb.R
 		}}
 		return errors.New(theerror)
 	}
-	
+
 	//envoi de sms pour confirmation au client
 	jsonData := map[string]string{
-		"username": "WEBLOGY",
-		"password": "WEBLOGY", 
-		"telephone": req.telephone,
+		"username":  "WEBLOGY",
+		"password":  "WEBLOGY",
+		"telephone": req.Telephone,
 		"expeditor": "Nsia Vie CI",
 		"typeEnvoi": "Confirmation de souscription",
-		"sms": fmt.Sprintf("Cher(e) %s, votre souscription a bien été enregistré. Infoline 22419800",req.nom)
+		"sms":       fmt.Sprintf("Cher(e) %s, votre souscription a bien été enregistré. Infoline 22419800 \n", req.Nom),
 	}
-    jsonValue, _ := json.Marshal(jsonData)
-    response, err = http.Post("http://10.11.100.48:8084/sendSMS", "application/json", bytes.NewBuffer(jsonValue))
-    if err != nil {
-        fmt.Printf("The HTTP request failed with error %s\n", err)
-    } else {
-        data, _ := ioutil.ReadAll(response.Body)
-        fmt.Println(string(data))
-    }
-
-
+	jsonValue, _ := json.Marshal(jsonData)
+	response, err := http.Post("http://10.11.100.48:8084/sendSMS", "application/json", bytes.NewBuffer(jsonValue))
+	if err != nil {
+		fmt.Printf("The HTTP request failed with error %s\n", err)
+	} else {
+		data, _ := ioutil.ReadAll(response.Body)
+		fmt.Println(string(data))
+	}
 
 	res.Done = true
 	res.Description = "Souscription prise en compte.Un retour vous sera fait d'ici 24h"
