@@ -13,4 +13,4 @@ services:
       MICRO_REGISTERY: "mdns"
       SMTP_HOST: 10.10.4.15
       SMTP_PORT: 25
-      FROM: "thibaut.zehi@groupensia.com"
+      FROM: "alain.memel@groupensia.com"

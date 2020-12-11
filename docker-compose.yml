@@ -75,8 +75,8 @@ services:
       DB_PASSWORD: "postgres"
       DB_NAME: "postgres"
       MICRO_REGISTERY: "mdns"
-      TO: "thibaut.zehi@groupensia.com"
-      CC: "thibaut.zehi@groupensia.com"
+      TO: "alain.memel@groupensia.com"
+      CC: "alain.memel@groupensia.com"
       #TO: "mariejeanne.pillah@groupensia.com,colombe.brou@groupensia.com"
       #CC: "Exploitation_VIECI@groupensia.com,armel.amacou@groupensia.com,mamery.silue@groupensia.com"
 
@@ -127,8 +127,8 @@ services:
       DB_NAME: "postgres"
       URLWSBORNE: "http://10.11.100.48:9000/TEST/sw_test/public"
       MICRO_REGISTERY: "mdns"
-      TO: "thibaut.zehi@groupensia.com"
-      CC: "thibaut.zehi@groupensia.com"
+      TO: "alain.memel@groupensia.com"
+      CC: "alain.memel@groupensia.com"
       #TO: "mariejeanne.pillah@groupensia.com,colombe.brou@groupensia.com"
       #CC: "Exploitation_VIECI@groupensia.com,armel.amacou@groupensia.com,mamery.silue@groupensia.com"
 
@@ -154,8 +154,8 @@ services:
       DB_PASSWORD: "postgres"
       DB_NAME: "postgres"
       MICRO_REGISTERY: "mdns"
-      TO: "thibaut.zehi@groupensia.com"
-      CC: "thibaut.zehi@groupensia.com"
+      TO: "alain.memel@groupensia.com"
+      CC: "alain.memel@groupensia.com"
       #TO: "mariejeanne.pillah@groupensia.com,colombe.brou@groupensia.com"
       #CC: "Exploitation_VIECI@groupensia.com,armel.amacou@groupensia.com,mamery.silue@groupensia.com"
   
@@ -179,7 +179,7 @@ services:
       MICRO_REGISTERY: "mdns"
       SMTP_HOST: NSIA-MBX-EX02.nsia.com
       SMTP_PORT: 25
-      FROM: "thibaut.zehi@groupensia.com"
+      FROM: "alain.memel@groupensia.com"
       ADPASSWORD: "tchebeEnt@1988"
 
   abjnet_taskrunner_service:
