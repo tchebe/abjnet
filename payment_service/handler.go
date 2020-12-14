@@ -54,7 +54,7 @@ func (s *service) Pay(ctx context.Context, req *pb.Payment, res *pb.Response) er
 		Telephone: req.Telephone,
 		Expeditor: "Nsia Vie CI",
 		TypeEnvoi: "Confirmation de souscription",
-		Sms:       fmt.Sprintf("Cher(e) %s, le paiement de %d FCFA  a été prise en compte, Merci d’avoir utilisé le service de Weblogy Info : 22419800 ", req.Nomclient, req.Montant),
+		Sms:       fmt.Sprintf("Cher(e) %s, le paiement de %s FCFA  a été prise en compte, Merci d’avoir utilisé le service de Weblogy Info : 22419800 ", req.Nomclient, req.Montant),
 	}
 
 	url := "http://10.11.100.48:8084/sendSMS"

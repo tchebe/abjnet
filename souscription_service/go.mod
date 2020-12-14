@@ -10,6 +10,7 @@ require (
 	github.com/satori/go.uuid v1.2.0
 	github.com/tchebe/abjnet/user_service v0.0.0-20201110134502-45bcc7273688
 	github.com/zjjt/abjnet/user_service v0.0.0-20200531124055-aab7d7162a78
+	google.golang.org/protobuf v1.23.0
 )
 
 replace github.com/zjjt/abjnet/user_service => github.com/tchebe/abjnet/user_service v0.0.0-20200531124055-aab7d7162a78

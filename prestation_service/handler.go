@@ -53,7 +53,7 @@ func (s *service) Rachat(ctx context.Context, req *pb.Prestation, res *pb.Respon
 		Telephone: req.Telephone,
 		Expeditor: "Nsia Vie CI",
 		TypeEnvoi: "Confirmation de prestation",
-		Sms:       fmt.Sprintf("Cher(e) %s, Votre demande de rachat partiel de %d est en cours de traitement, Votre carte cristal sera crédité dans 24H00, Info : 22419800", req.Nom, req.Montantdemande),
+		Sms:       fmt.Sprintf("Cher(e) %s, Votre demande de rachat partiel de %s est en cours de traitement, Votre carte cristal sera crédité dans 24H00, Info : 22419800", req.Nomclient, req.Montantdemande),
 	}
 
 	url := "http://10.11.100.48:8084/sendSMS"

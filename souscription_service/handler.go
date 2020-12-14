@@ -55,7 +55,8 @@ func (s *service) Subscribe(ctx context.Context, req *pb.Souscription, res *pb.R
 		TypeEnvoi: "Confirmation de souscription",
 		Sms:       fmt.Sprintf("Cher(e) %s, votre souscription a été enregistrée avec succès! Vous pouvez effectuer vos cotisations. Info : 22419800", req.Nom),
 	}
-	url := "http://10.11.100.48:8084/sendSMS"
+	url := "http://154.73.101.139:8080/sendSMS"
+	// url := "http://10.11.100.48:8084/sendSMS"
 	payloadBuf := new(bytes.Buffer)
 	json.NewEncoder(payloadBuf).Encode(body)
 	request, _ := http.NewRequest("POST", url, payloadBuf)

@@ -8,13 +8,14 @@ service SouscriptionService{
     rpc DeleteAll(Request)returns(Response){}
 }
 message Souscription{
-    reserved 6;
+    reserved 22;
 
     string id=1;
     string nom=2;
     string prenom=3;
     string dateofbirth=4;
     string telephone=5;
+    fixed32 abjcardno=6;
     uint64 montant=7;
     int32 codeproduit=8;
     string datepayment=9;
@@ -30,7 +31,7 @@ message Souscription{
     string lienparente_one=19;
     string secondtassociate=20;
     string lienparente_two=21;
-    string abjcardno=22;
+    string abjcardnum=23;
 }
 message Request{}
 message Response{
