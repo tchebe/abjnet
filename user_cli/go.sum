@@ -402,8 +402,6 @@ github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UV
 github.com/stretchr/testify v1.4.0 h1:2E4SXV/wtOkTonXsotYi4li6zVWxYlZuYNCXe9XRJyk=
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
 github.com/syndtr/gocapability v0.0.0-20170704070218-db04d3cc01c8/go.mod h1:hkRG7XYTFWNJGYcbNJQlaLq0fg1yr4J4t/NcTQtrfww=
-github.com/tchebe/abjnet/user_service v0.0.0-20201110134502-45bcc7273688 h1:kPZNgNVyZyre7nvYN5pNkqDd9cS14B6sjtwqfZxaxoA=
-github.com/tchebe/abjnet/user_service v0.0.0-20201110134502-45bcc7273688/go.mod h1:rn4StlzuZcnysSJfI6W0cjFiz+hjDpWEw6rvUE/1ku0=
 github.com/tchebe/abjnet/user_service v0.0.0-20201215103336-d071405eb2cc h1:UioMnlybpDOp+xyuxhbgtoEWPL8stqUAoxqtBCwQDeY=
 github.com/tchebe/abjnet/user_service v0.0.0-20201215103336-d071405eb2cc/go.mod h1:rn4StlzuZcnysSJfI6W0cjFiz+hjDpWEw6rvUE/1ku0=
 github.com/technoweenie/multipartstreamer v1.0.1/go.mod h1:jNVxdtShOxzAsukZwTSw6MDx5eUJoiEBsSvzDU9uzog=

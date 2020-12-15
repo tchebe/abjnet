@@ -9,13 +9,8 @@ require (
 	github.com/tchebe/abjnet/payment_service v0.0.0-20201215103336-d071405eb2cc
 	github.com/tchebe/abjnet/prestation_service v0.0.0-20201215103336-d071405eb2cc
 	github.com/tchebe/abjnet/souscription_service v0.0.0-20201215103336-d071405eb2cc
-	github.com/tchebe/abjnet/user_service v0.0.0-20201215103336-d071405eb2cc // indirect
-	github.com/zjjt/abjnet/payment_service v0.0.0-20200531233639-a49046ecb633
-	github.com/zjjt/abjnet/prestation_service v0.0.0-20200531233639-a49046ecb633
-	github.com/zjjt/abjnet/product_service v0.0.0-20200804064938-decd38f6bccb
-	github.com/zjjt/abjnet/souscription_service v0.0.0-20200531233639-a49046ecb633
-	github.com/zjjt/abjnet/user_service v0.0.0-20200531233639-a49046ecb633
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
+	gopkg.in/mail.v2 v2.3.1 // indirect
 )
 
 replace github.com/zjjt/abjnet/payment_service => github.com/tchebe/abjnet/payment_service v0.0.0-20200531233639-a49046ecb633
