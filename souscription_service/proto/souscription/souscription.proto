@@ -31,7 +31,7 @@ message Souscription{
     string lienparente_one=19;
     string secondtassociate=20;
     string lienparente_two=21;
-    string abjcardnum=23;
+    string abj_card_num=23;
 }
 message Request{}
 message Response{

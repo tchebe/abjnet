@@ -7,6 +7,7 @@ import (
 	"errors"
 	"fmt"
 	"io/ioutil"
+	"log"
 	"net/http"
 
 	pb "github.com/tchebe/abjnet/souscription_service/proto/souscription"
@@ -30,6 +31,8 @@ func newSouscriptionService(repo repository) *service {
 
 //Subscribe -returns the souscription inserted in the DB
 func (s *service) Subscribe(ctx context.Context, req *pb.Souscription, res *pb.Response) error {
+	log.Println("The request is : %v \n", req)
+
 	resp, err := s.repo.Subscribe(req)
 	if err != nil {
 		theerror := fmt.Sprintf("%v --from souscription_service", err)
